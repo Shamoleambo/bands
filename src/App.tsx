@@ -1,5 +1,12 @@
+import Header from "./components/Header/Header";
+import "./App.css";
+
 function App() {
-  return <>Mano</>;
+  return (
+    <>
+      <Header />
+    </>
+  );
 }
 
 export default App;
