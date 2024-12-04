@@ -1,5 +1,14 @@
-header {
+.header {
     min-height: 80px;
     background-color: aquamarine;
     border-bottom: 3px solid aqua;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.headerTitle {
+    font-family: "Outfit", sans-serif;
+    font-size: xx-large;
 }
