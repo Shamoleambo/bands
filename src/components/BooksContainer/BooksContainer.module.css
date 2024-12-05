@@ -7,6 +7,17 @@
     align-items: center;
 }
 
+
 .list .listItem {
     width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.list:nth-child(1) {
+    margin-top: 1em;
+}
+
+.list:last-child {
+    margin-bottom: 1em;
 }
