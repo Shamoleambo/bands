@@ -1,7 +1,13 @@
+import { useState } from "react";
 import { Book } from "../../models/Book";
 import classes from "./BookCard.module.css";
+import AuthorModal from "../AuthorModal/AuthorModal";
 
 const BookCard: React.FC<{ book: Book }> = ({ book }) => {
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
+  const onClose = () => setIsModalOpen(false);
+
   return (
     <section className={classes.card}>
       <img className={classes.bookCover} alt={book.title} src={book.cover} />
@@ -18,8 +24,17 @@ const BookCard: React.FC<{ book: Book }> = ({ book }) => {
             Buy {book.title}
           </a>
         </div>
-        <button className={classes.button}>About the author</button>
+        <button className={classes.button} onClick={() => setIsModalOpen(true)}>
+          About the author
+        </button>
       </div>
+      {isModalOpen && (
+        <AuthorModal
+          name={book.author}
+          info={book.authorInfo}
+          onClose={onClose}
+        />
+      )}
     </section>
   );
 };
