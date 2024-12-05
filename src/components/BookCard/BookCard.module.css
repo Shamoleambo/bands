@@ -62,6 +62,8 @@ p .year {
     border: none;
     border-radius: .5em;
     align-self: center;
+    font-family: "Teko", sans-serif;
+    font-size: 1.1em;
 }
 
 .bookInfo .button:hover {
