@@ -1,0 +1,29 @@
+.card {
+    margin: .5em 1em;
+    padding: 1em;
+    width: 80%;
+    border: 3px solid darkblue;
+    border-radius: 1em;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.bookCover {
+    max-width: 20%;
+}
+
+.bookInfo {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.bookInfo * {
+    margin: 0;
+}
+
+.bookInfo .title {
+    text-align: center;
+}

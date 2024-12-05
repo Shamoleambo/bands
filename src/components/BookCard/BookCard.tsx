@@ -1,14 +1,17 @@
 import { Book } from "../../models/Book";
+import classes from "./BookCard.module.css";
 
 const BookCard: React.FC<{ book: Book }> = ({ book }) => {
   return (
-    <section>
-      <h3>{book.title}</h3>
-      <p>{book.author}</p>
-      <img alt={book.title} src={book.cover} />
-      <p>{book.year}</p>
-      <a href={book.amazonLink}></a>
-      <button>More about the author</button>
+    <section className={classes.card}>
+      <img className={classes.bookCover} alt={book.title} src={book.cover} />
+      <div className={classes.bookInfo}>
+        <h3 className={classes.title}>{book.title}</h3>
+        <p>{book.author}</p>
+        <p>{book.year}</p>
+        <a href={book.amazonLink}>Buy {book.title}</a>
+        <button>More about the author</button>
+      </div>
     </section>
   );
 };
