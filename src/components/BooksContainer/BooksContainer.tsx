@@ -1,11 +1,12 @@
 import { Book } from "../../models/Book";
 import BookCard from "../BookCard/BookCard";
+import classes from "./BooksContainer.module.css";
 
 const BooksContainer: React.FC<{ books: Book[] }> = ({ books }) => {
   return (
-    <ul>
+    <ul className={classes.list}>
       {books.map((book) => (
-        <li key={book.id}>
+        <li className={classes.listItem} key={book.id}>
           <BookCard book={book} />
         </li>
       ))}
