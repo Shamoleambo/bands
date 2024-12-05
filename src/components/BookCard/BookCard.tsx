@@ -7,8 +7,12 @@ const BookCard: React.FC<{ book: Book }> = ({ book }) => {
       <img className={classes.bookCover} alt={book.title} src={book.cover} />
       <div className={classes.bookInfo}>
         <h3 className={classes.title}>{book.title}</h3>
-        <p>{book.author}</p>
-        <p>{book.year}</p>
+        <p>
+          <span className={classes.author}>Author:</span> {book.author}
+        </p>
+        <p>
+          <span className={classes.year}>Publishing Year:</span> {book.year}
+        </p>
         <div className={classes.linkContainer}>
           <a className={classes.link} href={book.amazonLink} target="_blank">
             Buy {book.title}

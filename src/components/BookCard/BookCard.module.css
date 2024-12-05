@@ -28,6 +28,11 @@
     text-align: center;
 }
 
+p .author,
+p .year {
+    text-decoration: underline;
+}
+
 .bookInfo .linkContainer {
     height: 1.5em;
 }
