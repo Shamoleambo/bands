@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "title": "O Senhor dos Anéis",
+        "title": "The Lord of the Rings",
         "author": "J.R.R. Tolkien",
         "cover": "https://m.media-amazon.com/images/I/71ZLavBjpRL._AC_UF1000,1000_QL80_.jpg",
         "year": 1954,
@@ -10,9 +10,9 @@
             "about": "John Ronald Reuel Tolkien was an English writer and philologist. He was the author of the high fantasy works The Hobbit and The Lord of the Rings. From 1925 to 1945, Tolkien was the Rawlinson and Bosworth Professor of Anglo-Saxon and a Fellow of Pembroke College, both at the University of Oxford.",
             "picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/J._R._R._Tolkien%2C_ca._1925.jpg/220px-J._R._R._Tolkien%2C_ca._1925.jpg",
             "otherBooks": [
-                "O Hobbit",
-                "O Silmarillion",
-                "Contos Inacabados"
+                "The Hobbit",
+                "The Silmarillion",
+                "Unfinished Tales"
             ]
         }
     },
@@ -27,9 +27,9 @@
             "about": "Howard Phillips Lovecraft was an American writer of weird, science, fantasy, and horror fiction. He is best known for his creation of the Cthulhu Mythos. Born in Providence, Rhode Island, Lovecraft spent most of his life in New England.",
             "picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/H._P._Lovecraft%2C_June_1934.jpg/220px-H._P._Lovecraft%2C_June_1934.jpg",
             "otherBooks": [
-                "Uma Sombra Através do Tempo",
-                "A Cor que Caiu do Espaço",
-                "Nas Montanhas da Loucura"
+                "The Shadow Out of Time",
+                "The Colour Out of Space",
+                "At the Mountains of Madness"
             ]
         }
     },
@@ -44,13 +44,13 @@
             "about": "Eric Arthur Blair was a British novelist, poet, essayist, journalist, and critic who wrote under the pen name of George Orwell, a name inspired by his favourite place, the River Orwell. His work is characterised by lucid prose, social criticism, opposition to all totalitarianism, and support of democratic socialism.",
             "picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/George_Orwell_press_photo.jpg/220px-George_Orwell_press_photo.jpg",
             "otherBooks": [
-                "A Revolução dos Bichos"
+                "Animal Farm"
             ]
         }
     },
     {
         "id": 4,
-        "title": "As Crônicas do Rei Artur",
+        "title": "Warlord Chronicles",
         "author": "Bernard Cornwell",
         "cover": "https://m.media-amazon.com/images/I/A1Rqf8QSe2L._UF894,1000_QL80_.jpg",
         "year": 1995,
@@ -59,8 +59,8 @@
             "about": "Bernard Cornwell OBE is a British-American author of historical novels and a history of the Waterloo Campaign. He is best known for his long-running series of novels about Napoleonic Wars rifleman Richard Sharpe. He has also written The Saxon Stories, a series of thirteen novels about the unification of England.",
             "picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Bernard_Cornwell.jpg/220px-Bernard_Cornwell.jpg",
             "otherBooks": [
-                "Crônicas Saxônicas",
-                "As Crônicas de Sharpe"
+                "The Saxon Stories",
+                "Sharpe Stories"
             ]
         }
     },
