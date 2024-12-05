@@ -10,7 +10,7 @@ const BookCard: React.FC<{ book: Book }> = ({ book }) => {
         <p>{book.author}</p>
         <p>{book.year}</p>
         <a href={book.amazonLink}>Buy {book.title}</a>
-        <button>More about the author</button>
+        <button className={classes.button}>About the author</button>
       </div>
     </section>
   );

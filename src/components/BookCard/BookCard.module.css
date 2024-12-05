@@ -27,3 +27,26 @@
 .bookInfo .title {
     text-align: center;
 }
+
+.bookInfo .button {
+    width: 16em;
+    height: 3em;
+    cursor: pointer;
+    background-color: black;
+    color: whitesmoke;
+    border: none;
+    border-radius: .5em;
+    align-self: center;
+}
+
+.bookInfo .button:hover {
+    background-color: whitesmoke;
+    color: black;
+    border: 2px solid black;
+}
+
+.bookInfo .button:active {
+    box-shadow: 0px 0px 6px black;
+    color: red;
+    border: 2px solid red;
+}
