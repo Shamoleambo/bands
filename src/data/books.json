@@ -1,0 +1,93 @@
+[
+    {
+        "title": "O Senhor dos Anéis",
+        "author": "J.R.R. Tolkien",
+        "cover": "https://m.media-amazon.com/images/I/71ZLavBjpRL._AC_UF1000,1000_QL80_.jpg",
+        "year": 1954,
+        "amazonLink": "https://www.amazon.com.br/Box-Trilogia-Senhor-dos-An%C3%A9is/dp/8595086354/ref=sr_1_1?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=BRCRR0GLUC9I&dib=eyJ2IjoiMSJ9.N7TYWPa6MbkMK5nXBtdK0Q4zW1HM8S7KZ6MNiOeKcWrQIHH_g2Vlq8sT93bkqm6hi3Kw4E1WDIgIwt3tw0_E71UcHmU9xDplZQJeTStWuGZJoFseep_mAQGrjU2aSOpjhdashRTBr6C0SrHSdFJ9BjIyZUa_0JVVKGCQN_zfxDOg-zenUG3VKv9WlUnB9HI19PL06FpUG0wgp3uLvTQ-8k591ZkgY52FOTNtKQ-q5X0._OVer1uuda9OcyxO2-h1dskAvwjjhbTNyYZnKPKLZKo&dib_tag=se&keywords=o+senhor+dos+an%C3%A9is&qid=1733401146&s=books&sprefix=o+senhor+dos+an%C3%A9i%2Cstripbooks%2C224&sr=1-1&ufe=app_do%3Aamzn1.fos.6121c6c4-c969-43ae-92f7-cc248fc6181d",
+        "authorInfo": {
+            "about": "John Ronald Reuel Tolkien was an English writer and philologist. He was the author of the high fantasy works The Hobbit and The Lord of the Rings. From 1925 to 1945, Tolkien was the Rawlinson and Bosworth Professor of Anglo-Saxon and a Fellow of Pembroke College, both at the University of Oxford.",
+            "picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/J._R._R._Tolkien%2C_ca._1925.jpg/220px-J._R._R._Tolkien%2C_ca._1925.jpg",
+            "otherBooks": [
+                "O Hobbit",
+                "O Silmarillion",
+                "Contos Inacabados"
+            ]
+        }
+    },
+    {
+        "title": "H.P. Lovecraft - Medo Clássico",
+        "author": "H.P. Lovecraft",
+        "cover": "https://m.media-amazon.com/images/I/61D91XRmA0L._AC_UF1000,1000_QL80_.jpg",
+        "year": 2017,
+        "amazonLink": "https://www.amazon.com.br/H-P-Lovecraft-Medo-Cl%C3%A1ssico/dp/8594540795/ref=pd_lpo_d_sccl_2/138-1420692-8736900?pd_rd_w=ETINT&content-id=amzn1.sym.a2197dac-0fbe-4cc8-beca-b52f96ea33d5&pf_rd_p=a2197dac-0fbe-4cc8-beca-b52f96ea33d5&pf_rd_r=ZFBS5X2C8P05HHZCE99M&pd_rd_wg=inL1X&pd_rd_r=fd1eda98-3f22-432b-be50-dcc8cc19c183&pd_rd_i=8594540795&psc=1",
+        "authorInfo": {
+            "about": "Howard Phillips Lovecraft was an American writer of weird, science, fantasy, and horror fiction. He is best known for his creation of the Cthulhu Mythos. Born in Providence, Rhode Island, Lovecraft spent most of his life in New England.",
+            "picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/H._P._Lovecraft%2C_June_1934.jpg/220px-H._P._Lovecraft%2C_June_1934.jpg",
+            "otherBooks": [
+                "Uma Sombra Através do Tempo",
+                "A Cor que Caiu do Espaço",
+                "Nas Montanhas da Loucura"
+            ]
+        }
+    },
+    {
+        "title": "1984",
+        "author": "George Orwell",
+        "cover": "https://m.media-amazon.com/images/I/819js3EQwbL.jpg",
+        "year": 1949,
+        "amazonLink": "https://www.amazon.com.br/1984-George-Orwell/dp/8535914846",
+        "authorInfo": {
+            "about": "Eric Arthur Blair was a British novelist, poet, essayist, journalist, and critic who wrote under the pen name of George Orwell, a name inspired by his favourite place, the River Orwell. His work is characterised by lucid prose, social criticism, opposition to all totalitarianism, and support of democratic socialism.",
+            "picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/George_Orwell_press_photo.jpg/220px-George_Orwell_press_photo.jpg",
+            "otherBooks": [
+                "A Revolução dos Bichos"
+            ]
+        }
+    },
+    {
+        "title": "As Crônicas do Rei Artur",
+        "author": "Bernard Cornwell",
+        "cover": "https://m.media-amazon.com/images/I/A1Rqf8QSe2L._UF894,1000_QL80_.jpg",
+        "year": 1995,
+        "amazonLink": "https://www.amazon.com.br/Box-cr%C3%B4nicas-Artur-Edi%C3%A7%C3%A3o-colecionador/dp/8501304840/ref=sr_1_1?adgrpid=106299467654&dib=eyJ2IjoiMSJ9._jAukJR0JXf5NZ8jagvqL4C4OuRo6e0M0t-1gKXTLGg5Gjt_FEj1itiBGkH6mot646bEfN1HxvLveKYp4VRt6R96nx0c66hokYkkSdFJeTwNH2gwzTf7D5D50HkEoGMcukDoOv2TKCiGLr-mZGEicm_3SNAGhXENxLzydVTUO7q7WVirimNvo-C-2GqlPVUT5TucAaIOeo-VwFKwFurxzNDsEYcIKXja45xG1AaAQtQc_H6dKL5mE9jag3OF8c6gJBOUJxdgyUndWGPt0j0PuASQ2I5CpSa0qGx-XJzCAfA.17yHRMqRXh1D9kxINJEYtBGaEx666T8aR6i5vtx10Dc&dib_tag=se&hvadid=595838265025&hvdev=c&hvlocphy=9196692&hvnetw=g&hvqmt=e&hvrand=1702724548696431789&hvtargid=kwd-1015917805632&hydadcr=22516_13519562&keywords=as+cr%C3%B4nicas+do+rei+artur&qid=1733401505&sr=8-1&ufe=app_do%3Aamzn1.fos.6121c6c4-c969-43ae-92f7-cc248fc6181d",
+        "authorInfo": {
+            "about": "Bernard Cornwell OBE is a British-American author of historical novels and a history of the Waterloo Campaign. He is best known for his long-running series of novels about Napoleonic Wars rifleman Richard Sharpe. He has also written The Saxon Stories, a series of thirteen novels about the unification of England.",
+            "picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Bernard_Cornwell.jpg/220px-Bernard_Cornwell.jpg",
+            "otherBooks": [
+                "Crônicas Saxônicas",
+                "As Crônicas de Sharpe"
+            ]
+        }
+    },
+    {
+        "title": "Memórias Póstumas de Brás Cubas",
+        "author": "Machado de Assis",
+        "cover": "https://m.media-amazon.com/images/I/71gp45id2QS._AC_UF1000,1000_QL80_.jpg",
+        "year": 1881,
+        "amazonLink": "https://www.amazon.com.br/Mem%C3%B3rias-p%C3%B3stumas-Cubas-Machado-Assis/dp/6559100529",
+        "authorInfo": {
+            "about": "Joaquim Maria Machado de Assis, often known by his surnames as Machado de Assis, Machado, or Bruxo do Cosme Velho, was a pioneer Brazilian novelist, poet, playwright and short story writer, widely regarded as the greatest writer of Brazilian literature.",
+            "picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Machado_de_Assis_by_Marc_Ferrez.jpg/220px-Machado_de_Assis_by_Marc_Ferrez.jpg",
+            "otherBooks": [
+                "Dom Casmurro",
+                "Esaú e Jacó",
+                "Quincas Borba"
+            ]
+        }
+    },
+    {
+        "title": "Grande Sertão: Veredas",
+        "author": "João Guimarães Rosa",
+        "cover": "https://m.media-amazon.com/images/I/71bh8SB8R0L._AC_UF1000,1000_QL80_.jpg",
+        "year": 1963,
+        "amazonLink": "https://www.amazon.com.br/Grande-sert%C3%A3o-Veredas-Guimar%C3%A3es-Rosa/dp/8535931988",
+        "authorInfo": {
+            "about": "João Guimarães Rosa was a Brazilian novelist, short story writer, poet and diplomat. Rosa only wrote one novel, Grande Sertão: Veredas, a revolutionary text for its blend of archaic and colloquial prose and frequent use of neologisms, taking inspiration from the spoken language of the Brazilian backlands.",
+            "picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Guimar%C3%A3es_Rosa%2C_anos_1960.tif/lossy-page1-220px-Guimar%C3%A3es_Rosa%2C_anos_1960.tif.jpg",
+            "otherBooks": [
+                "Sagarana"
+            ]
+        }
+    }
+]
