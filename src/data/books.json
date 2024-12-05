@@ -1,5 +1,6 @@
 [
     {
+        "id": 1,
         "title": "O Senhor dos Anéis",
         "author": "J.R.R. Tolkien",
         "cover": "https://m.media-amazon.com/images/I/71ZLavBjpRL._AC_UF1000,1000_QL80_.jpg",
@@ -16,6 +17,7 @@
         }
     },
     {
+        "id": 2,
         "title": "H.P. Lovecraft - Medo Clássico",
         "author": "H.P. Lovecraft",
         "cover": "https://m.media-amazon.com/images/I/61D91XRmA0L._AC_UF1000,1000_QL80_.jpg",
@@ -32,6 +34,7 @@
         }
     },
     {
+        "id": 3,
         "title": "1984",
         "author": "George Orwell",
         "cover": "https://m.media-amazon.com/images/I/819js3EQwbL.jpg",
@@ -46,6 +49,7 @@
         }
     },
     {
+        "id": 4,
         "title": "As Crônicas do Rei Artur",
         "author": "Bernard Cornwell",
         "cover": "https://m.media-amazon.com/images/I/A1Rqf8QSe2L._UF894,1000_QL80_.jpg",
@@ -61,6 +65,7 @@
         }
     },
     {
+        "id": 5,
         "title": "Memórias Póstumas de Brás Cubas",
         "author": "Machado de Assis",
         "cover": "https://m.media-amazon.com/images/I/71gp45id2QS._AC_UF1000,1000_QL80_.jpg",
@@ -77,6 +82,7 @@
         }
     },
     {
+        "id": 6,
         "title": "Grande Sertão: Veredas",
         "author": "João Guimarães Rosa",
         "cover": "https://m.media-amazon.com/images/I/71bh8SB8R0L._AC_UF1000,1000_QL80_.jpg",
