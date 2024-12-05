@@ -1,0 +1,54 @@
+.authorContainer {
+    position: fixed;
+    width: 800px;
+    height: 400px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border: 3px solid black;
+    display: flex;
+    align-items: center;
+}
+
+.imageContainer {
+    margin: 1em;
+    width: 20%;
+    padding: 1em;
+    border: 1px solid gray;
+}
+
+.imageContainer img {
+    max-width: 8em;
+    display: block;
+    margin: 0 auto;
+}
+
+.generalInfo {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+
+.button {
+    background-color: black;
+    color: white;
+    width: 2em;
+    height: 2em;
+    align-self: flex-end;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+
+.button:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    border: 1px solid black;
+}
+
+.authorName {
+    font-family: "Teko", sans-serif;
+}
