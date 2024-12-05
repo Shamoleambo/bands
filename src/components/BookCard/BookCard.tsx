@@ -9,7 +9,11 @@ const BookCard: React.FC<{ book: Book }> = ({ book }) => {
         <h3 className={classes.title}>{book.title}</h3>
         <p>{book.author}</p>
         <p>{book.year}</p>
-        <a href={book.amazonLink}>Buy {book.title}</a>
+        <div className={classes.linkContainer}>
+          <a className={classes.link} href={book.amazonLink} target="_blank">
+            Buy {book.title}
+          </a>
+        </div>
         <button className={classes.button}>About the author</button>
       </div>
     </section>

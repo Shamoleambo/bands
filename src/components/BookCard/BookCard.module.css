@@ -28,6 +28,26 @@
     text-align: center;
 }
 
+.bookInfo .linkContainer {
+    height: 1.5em;
+}
+
+.bookInfo .link {
+    text-decoration: none;
+    cursor: pointer;
+    color: brown;
+}
+
+.bookInfo .link:hover {
+    font-size: 1.1em;
+    text-shadow: 0px 0px 3px yellow;
+}
+
+.bookInfo .link:active {
+    color: black;
+    text-shadow: 0px 0px 3px yellow;
+}
+
 .bookInfo .button {
     width: 16em;
     height: 3em;
