@@ -1,4 +1,5 @@
 .header {
+    width: 100%;
     min-height: 80px;
     background-color: aquamarine;
     border-bottom: 3px solid aqua;
@@ -9,6 +10,5 @@
 }
 
 .headerTitle {
-    font-family: "Outfit", sans-serif;
     font-size: xx-large;
 }
