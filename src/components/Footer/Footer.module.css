@@ -1,6 +1,13 @@
 .footer {
     width: 100%;
-    padding: 1em;
+    padding: 3em;
     background-color: aqua;
     border-top: 4px solid aquamarine;
+    display: flex;
+    justify-content: center;
+}
+
+.me {
+    font-family: "Teko", sans-serif;
+    font-size: 1.3em;
 }
