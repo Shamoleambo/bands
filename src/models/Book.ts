@@ -1,15 +1,11 @@
-type AuthorInfo = {
-  about: string
-  picture: string
-  otherBooks: string[]
-}
+import { AuthorInfo } from "./AuthorInfo";
 
 export interface Book {
-  id: number
+  id: number;
   title: string;
   author: string;
   cover: string;
   year: number;
   amazonLink: string;
-  authorInfo: AuthorInfo
+  authorInfo: AuthorInfo;
 }
