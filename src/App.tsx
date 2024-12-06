@@ -2,6 +2,7 @@ import { useState } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Header from "./components/Header/Header";
 import BooksContainer from "./components/BooksContainer/BooksContainer";
+import SingleBook from "./components/SingleBook/SingleBook";
 import Footer from "./components/Footer/Footer";
 import myData from "./data/books.json";
 import "./App.css";
@@ -16,6 +17,7 @@ function App() {
         <Router>
           <Routes>
             <Route path="/" element={<BooksContainer books={books} />} />
+            <Route path="/book" element={<SingleBook />} />
           </Routes>
         </Router>
       </main>
