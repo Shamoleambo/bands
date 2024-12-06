@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Header from "./components/Header/Header";
 import BooksContainer from "./components/BooksContainer/BooksContainer";
 import Footer from "./components/Footer/Footer";
@@ -12,7 +13,11 @@ function App() {
     <div className="app">
       <Header />
       <main>
-        <BooksContainer books={books} />
+        <Router>
+          <Routes>
+            <Route path="/" element={<BooksContainer books={books} />} />
+          </Routes>
+        </Router>
       </main>
       <Footer />
     </div>
