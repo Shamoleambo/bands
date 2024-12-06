@@ -17,7 +17,10 @@ function App() {
         <Router>
           <Routes>
             <Route path="/" element={<BooksContainer books={books} />} />
-            <Route path="/book" element={<SingleBook />} />
+            <Route
+              path="/book/:bookId"
+              element={<SingleBook books={books} />}
+            />
           </Routes>
         </Router>
       </main>
