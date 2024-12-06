@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 import { Book } from "../../models/Book";
 import classes from "./BookCard.module.css";
 import AuthorModal from "../AuthorModal/AuthorModal";
@@ -24,9 +25,22 @@ const BookCard: React.FC<{ book: Book }> = ({ book }) => {
             Buy {book.title}
           </a>
         </div>
-        <button className={classes.button} onClick={() => setIsModalOpen(true)}>
-          About the author
-        </button>
+        <div className={classes.buttonsContainer}>
+          <Link to={`/book/${book.id}`}>
+            <button
+              style={{ backgroundColor: "lightblue", color: "black" }}
+              className={classes.button}
+            >
+              About this Book
+            </button>
+          </Link>
+          <button
+            className={classes.button}
+            onClick={() => setIsModalOpen(true)}
+          >
+            About the author
+          </button>
+        </div>
       </div>
       {isModalOpen && (
         <AuthorModal

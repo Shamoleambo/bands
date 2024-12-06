@@ -53,6 +53,11 @@ p .year {
     text-shadow: 0px 0px 3px yellow;
 }
 
+.bookInfo .buttonsContainer {
+    display: flex;
+    justify-content: space-around;
+}
+
 .bookInfo .button {
     width: 16em;
     height: 3em;
