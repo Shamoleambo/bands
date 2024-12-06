@@ -11,10 +11,10 @@ function App() {
   const [books, setBooks] = useState(myData);
 
   return (
-    <div className="app">
-      <Header />
-      <main>
-        <Router>
+    <Router>
+      <div className="app">
+        <Header />
+        <main>
           <Routes>
             <Route path="/" element={<BooksContainer books={books} />} />
             <Route
@@ -22,10 +22,10 @@ function App() {
               element={<SingleBook books={books} />}
             />
           </Routes>
-        </Router>
-      </main>
-      <Footer />
-    </div>
+        </main>
+        <Footer />
+      </div>
+    </Router>
   );
 }
 
