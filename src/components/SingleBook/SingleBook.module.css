@@ -6,3 +6,11 @@
 h2 {
     align-self: center;
 }
+
+.bookInfo {
+    margin: 40px 0;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
