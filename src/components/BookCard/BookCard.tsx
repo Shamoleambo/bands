@@ -11,7 +11,11 @@ const BookCard: React.FC<{ book: Book }> = ({ book }) => {
 
   return (
     <section className={classes.card}>
-      <img className={classes.bookCover} alt={book.title} src={book.cover} />
+      <img
+        className={classes.bookCover}
+        alt={book.title}
+        src={book.covers[0]}
+      />
       <div className={classes.bookInfo}>
         <h3 className={classes.title}>{book.title}</h3>
         <p>

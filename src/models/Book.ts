@@ -4,7 +4,7 @@ export interface Book {
   id: number;
   title: string;
   author: string;
-  cover: string;
+  covers: string[];
   year: number;
   amazonLink: string;
   about: string;
