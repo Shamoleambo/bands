@@ -1,5 +1,6 @@
 import { useParams } from "react-router-dom";
 import { Book } from "../../models/Book";
+import ImageCarousel from "../ImageCarousel/ImageCarousel";
 
 type BookParam = {
   bookId: string;
@@ -14,6 +15,7 @@ const SingleBook: React.FC<{ books: Book[] }> = ({ books }) => {
 
   const bookInfo = (
     <div>
+      <ImageCarousel book={book} />
       <h2>{book.title}</h2>
       <p>{book.author}</p>
       <p>{book.year}</p>
