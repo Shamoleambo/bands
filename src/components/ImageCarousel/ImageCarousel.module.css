@@ -1,10 +1,12 @@
 .carousel {
-    width: 50%;
+    width: 30%;
     background-repeat: no-repeat;
     background-position: center;
     display: flex;
     justify-content: space-around;
     align-self: center;
+    border: none;
+    border-radius: 4em;
 }
 
 .imgContainer {
@@ -14,4 +16,13 @@
 
 .imgContainer img {
     max-width: 260px;
+}
+
+.button {
+    cursor: pointer;
+    background: none;
+    border: none;
+    height: 80px;
+    align-self: center;
+    font-size: 3em;
 }
