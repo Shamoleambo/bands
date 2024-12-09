@@ -13,3 +13,9 @@
 .headerTitle {
     font-size: xx-large;
 }
+
+a {
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
