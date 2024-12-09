@@ -7,5 +7,6 @@ export interface Book {
   cover: string;
   year: number;
   amazonLink: string;
+  about: string;
   authorInfo: AuthorInfo;
 }
