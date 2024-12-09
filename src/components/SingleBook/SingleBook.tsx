@@ -1,6 +1,7 @@
 import { useParams } from "react-router-dom";
 import { Book } from "../../models/Book";
 import ImageCarousel from "../ImageCarousel/ImageCarousel";
+import classes from "./SingleBook.module.css";
 
 type BookParam = {
   bookId: string;
@@ -14,11 +15,11 @@ const SingleBook: React.FC<{ books: Book[] }> = ({ books }) => {
   )[0];
 
   const bookInfo = (
-    <div>
+    <div className={classes.container}>
       <h2>{book.title}</h2>
       <ImageCarousel book={book} />
-      <p>{book.author}</p>
-      <p>{book.year}</p>
+      <p>Author: {book.author}</p>
+      <p>Publication year: {book.year}</p>
       <p style={{ whiteSpace: "pre-wrap" }}>{book.about}</p>
     </div>
   );
