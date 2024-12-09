@@ -16,9 +16,16 @@ const ImageCarousel: React.FC<{ book: Book }> = ({ book }) => {
   };
 
   return (
-    <div className={classes.carousel}>
+    <div
+      className={classes.carousel}
+      style={{
+        backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.7), rgba(10, 10, 10, 0.5)), url(${book.covers[index]})`,
+      }}
+    >
       <button onClick={handlePrevCover}>&lt;</button>
-      <img src={book.covers[index]} alt={book.title} />
+      <div className={classes.imgContainer}>
+        <img src={book.covers[index]} alt={book.title} />
+      </div>
       <button onClick={handleNextCover}>&gt;</button>
     </div>
   );

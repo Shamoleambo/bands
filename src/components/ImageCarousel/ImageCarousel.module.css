@@ -1,7 +1,17 @@
 .carousel {
+    width: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
     display: flex;
+    justify-content: space-around;
+    align-self: center;
 }
 
-.carousel img {
-    max-height: 400px;
+.imgContainer {
+    max-height: 360px;
+    overflow: hidden;
+}
+
+.imgContainer img {
+    max-width: 260px;
 }
