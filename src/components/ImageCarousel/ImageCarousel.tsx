@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Book } from "../../models/Book";
+import classes from "./ImageCarousel.module.css";
 
 const ImageCarousel: React.FC<{ book: Book }> = ({ book }) => {
   const [index, setIndex] = useState(0);
@@ -15,10 +16,10 @@ const ImageCarousel: React.FC<{ book: Book }> = ({ book }) => {
   };
 
   return (
-    <div>
-      <button onClick={handlePrevCover}>&lt</button>
+    <div className={classes.carousel}>
+      <button onClick={handlePrevCover}>&lt;</button>
       <img src={book.covers[index]} alt={book.title} />
-      <button onClick={handleNextCover}>&gt</button>
+      <button onClick={handleNextCover}>&gt;</button>
     </div>
   );
 };

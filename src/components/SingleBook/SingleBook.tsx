@@ -15,8 +15,8 @@ const SingleBook: React.FC<{ books: Book[] }> = ({ books }) => {
 
   const bookInfo = (
     <div>
-      <ImageCarousel book={book} />
       <h2>{book.title}</h2>
+      <ImageCarousel book={book} />
       <p>{book.author}</p>
       <p>{book.year}</p>
       <p style={{ whiteSpace: "pre-wrap" }}>{book.about}</p>
