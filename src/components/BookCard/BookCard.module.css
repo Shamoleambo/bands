@@ -82,3 +82,31 @@ p .year {
     color: red;
     border: 2px solid red;
 }
+
+@media (max-width: 1500px) {
+
+    .card {
+        height: 600px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .card .bookInfo {
+        height: 60%;
+        width: 40%;
+        text-align: center;
+    }
+
+    .buttonsContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .bookInfo .button {
+        margin: .5em;
+        width: 8em;
+    }
+
+}
