@@ -110,3 +110,16 @@ p .year {
     }
 
 }
+
+@media (max-width: 1200px) {
+
+    .card {
+        height: 860px;
+    }
+
+    .bookCover {
+        max-width: 70%;
+        max-height: 70%;
+        ;
+    }
+}
