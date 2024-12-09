@@ -63,3 +63,11 @@
 .authorName {
     font-family: "Teko", sans-serif;
 }
+
+@media (max-width: 900px) {
+    .authorContainer {
+        max-width: 70%;
+        flex-direction: column;
+        height: 80%;
+    }
+}
